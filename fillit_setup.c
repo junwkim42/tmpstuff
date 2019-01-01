@@ -6,7 +6,7 @@
 /*   By: pisophy <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/12/16 21:13:55 by pisophy           #+#    #+#             */
-/*   Updated: 2018/12/29 19:41:06 by junwkim          ###   ########.fr       */
+/*   Updated: 2018/12/31 16:25:18 by junwkim          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -98,6 +98,7 @@ static int		lstaddback(t_mino **head, char **mino, char letter)
 // the total connections of the cells (#) - should be 6 or 8
 // Also check if the width of the table is 4
 // ex #-><-#-><-#-><-# = 6 connections
+// return the number of teterimino blocks read ( = count)
 static int		verify_tetrimino(char **tetrimino)
 {
 	int i;
